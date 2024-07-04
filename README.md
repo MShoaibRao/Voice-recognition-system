@@ -22,7 +22,7 @@ Step-2:Enroll
 
 	1.Enroll a Person Voice.
 	2.Run the script by this cmd:
-	eagle_demo_mic enroll --access_key H0fDZdgA3/bx43l+lg+y5ZVBT1vwRZt8X2lgNHVzQpl7yDhtnBsbTA== --output_profile_path "Output_filepath"
+	eagle_demo_mic enroll --access_key {For Access contact: shoaib.tashrif@gmail.com} --output_profile_path "Output_filepath"
 	
 	3.Now Microphone is active and start speaking, when enrollment %age is 100%, voice is saved in bject file on given output filepath
 	4.add more persons if u want.
