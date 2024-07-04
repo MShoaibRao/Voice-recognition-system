@@ -1,10 +1,11 @@
 # Voice-recognition-system
 Idenify the person by its voice
-						Speaker Identification By Voice
 
 Step-1:SetUp
 	python3 and pip should be installed if not installed. in ubuntu python is preinstalled.
+ 
 	first install 2 python pkgs
+ 
 	Pkgs:
 		pveagle==1.0.1 
 		pvrecorder==1.2.2
@@ -18,6 +19,7 @@ Step-1:SetUp
 			---------------------------------------------------------------------
 
 Step-2:Enroll
+
 	1.Enroll a Person Voice.
 	2.Run the script by this cmd:
 	eagle_demo_mic enroll --access_key H0fDZdgA3/bx43l+lg+y5ZVBT1vwRZt8X2lgNHVzQpl7yDhtnBsbTA== --output_profile_path "Output_filepath"
@@ -29,8 +31,9 @@ Step-2:Enroll
 			
 	
 Step-3:Testing
+
 	1.Run the script by this cmd:
-	eagle_demo_mic test --access_key H0fDZdgA3/bx43l+lg+y5ZVBT1vwRZt8X2lgNHVzQpl7yDhtnBsbTA== --input_profile_paths "file1" "file2"
+	eagle_demo_mic test --access_key {For Access contact: shoaib.tashrif@gmail.com} --input_profile_paths "file1" "file2"
 	2.add more file name to compare.
 	3.Remember file1 file2 .. are same as u previously saved object files.
 	4.%age will be showned how match it matches from any voice.
